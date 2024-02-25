@@ -8,11 +8,6 @@ body {
   background-color: var(--primary-color) !important;
 }
 
-.navbar-logo {
-  max-width: 50%;
-  height: auto;
-}
-
 .nav-link {
   color: var(--seconday-color) !important;
 }
@@ -34,16 +29,22 @@ h1 {
   padding-top: 20px;
 }
 
-h3 {
-  color: white !important;
+i {
+  color: red;
+  width: 100%;
+}
+
+.hero {
+  background: var(--primary-color);
+  text-align: center;
+}
+
+.hero p {
   font-family: "Libre Baskerville", serif;
-  font-size: 13px;
+  color: white;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   padding: 20px;
-}
-
-i {
-  color: red;
 }
