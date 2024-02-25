@@ -10,6 +10,17 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/d8d89c7f5e.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,28 +34,68 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://kit.fontawesome.com/d8d89c7f5e.js"
-      crossorigin="anonymous"
-    ></script>
-
     <title>REDSKY</title>
   </head>
   <body>
-    <h1>Welcome to REDSKY</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/navbar.png"
+            class="img-fluid"
+            alt="REDSKY navbar logo"
+          />
+        </a>
 
-    <p>This is an official website for REDSKY.</p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About REDSKY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Work</a>
+            </li>
+            <li></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Welcome to</h1>
 
-    <div class="d-flex justify-content-evenly">
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-x-twitter"></i>
+      <img src="images/main.png" alt="REDSKY logo" />
+
+      <h3>This is an official website for REDSKY.</h3>
+
+      <div class="social-media">
+        <div class="d-flex justify-content-evenly">
+          <i class="fa-brands fa-instagram"
+            ><a
+              href="https://www.instagram.com/redsky.no/"
+              class="bt btn-branding"
+            ></a
+          ></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+      </div>
     </div>
   </body>
 </html>
