@@ -24,6 +24,9 @@ i {
   width: 100%;
 }
 
+.about-title {
+  color: white;
+}
 .hero {
   background: var(--primary-color);
   text-align: center;
