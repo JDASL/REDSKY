@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: "Archivo", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: red;
+}
+
+p {
+  color: rgb(255, 254, 254);
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+i {
+  color: red;
+}
