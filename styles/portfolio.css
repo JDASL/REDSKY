@@ -106,4 +106,26 @@ i {
 }
 
 @media (max-width: 800px) {
+  .redsky-description {
+    font-family: var(--font-family);
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0 auto;
+  }
+
+  .content {
+    padding: 0;
+  }
+  .about-container {
+    padding: 20px 0;
+  }
+
+  .img-fluid {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+  }
 }
