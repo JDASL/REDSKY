@@ -19,13 +19,13 @@ body {
   width: 50%;
 }
 
-.container-home {
+.home-container {
   padding: 30px 100px;
   display: block;
 }
 
-.container-about {
-  padding: 50px 100px;
+.content {
+  padding: 30px 100px;
   display: block;
 }
 i {
