@@ -1,6 +1,7 @@
 :root {
   --primary-color: #000;
   --seconday-color: red;
+  --tertiarty-color: #9cadbe;
   --font-family: "Archivo", sans-serif;
 }
 
@@ -27,15 +28,27 @@ body {
 .content {
   padding: 30px 100px;
   display: block;
+  text-align: center;
+}
+
+.content-container h3 {
+  color: white;
+  font-size: 18px;
+  margin: 20px 0 0;
+  line-height: 1.5;
+  font-family: var(--font-family);
+}
+
+.title p {
+  font-size: 13px;
+  text-align: center;
+  opacity: 0.4;
 }
 i {
   color: red;
   width: 100%;
 }
 
-.work-projects {
-  color: white;
-}
 .about-title {
   color: white;
 }
@@ -55,7 +68,7 @@ i {
   padding: 20px;
 }
 
-footer {
+.social-media {
   position: fixed;
   left: 0;
   bottom: 0;
