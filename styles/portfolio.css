@@ -56,6 +56,18 @@ body {
   text-align: center;
   opacity: 0.4;
 }
+
+.studio-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.img-fluid {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
 i {
   color: red;
   width: 100%;
@@ -103,6 +115,11 @@ i {
   padding-bottom: 20px;
   color: white;
   text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 800px) {
