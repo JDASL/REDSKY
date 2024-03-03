@@ -32,7 +32,7 @@ body {
 }
 
 .about-container {
-  padding: 10px 100px 70px;
+  padding: 80px 100px;
   display: block;
   text-align: center;
 }
@@ -61,9 +61,6 @@ i {
   width: 100%;
 }
 
-.about-title {
-  color: white;
-}
 .hero {
   background: var(--primary-color);
   text-align: center;
@@ -73,11 +70,29 @@ i {
 .hero p {
   font-family: "Libre Baskerville", serif;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   padding: 20px;
+}
+
+.content h3 {
+  font-size: 25px;
+  padding: 10px 10px 10px;
+  margin: 0 auto;
+}
+.content p {
+  font-family: var(--font-family);
+  color: var(--tertiarty-color) !important;
+  font-size: 20px;
+  line-height: 3;
+}
+
+.content-container {
+  padding: 80px 100px;
+  margin: 0 auto;
+  display: block;
 }
 
 .social-media {
