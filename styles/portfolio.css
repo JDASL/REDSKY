@@ -10,7 +10,11 @@ body {
 }
 
 .nav-link {
-  color: var(--seconday-color) !important;
+  color: white !important;
+}
+
+.navbar-nav {
+  justify-content: center;
 }
 
 .main-logo {
@@ -73,7 +77,7 @@ body {
   padding: 20px;
 }
 i {
-  color: red;
+  color: var(--seconday-color);
   width: 100%;
 }
 
