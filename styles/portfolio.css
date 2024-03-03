@@ -66,10 +66,11 @@ body {
 }
 
 .img-fluid {
-  max-width: 60%;
+  max-width: 50%;
   height: auto;
   display: block;
   margin: 0 auto;
+  padding: 20px;
 }
 i {
   color: red;
