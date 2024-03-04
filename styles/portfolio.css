@@ -17,6 +17,8 @@ span,
 .coders-link {
   font-size: 9px;
   color: var(--tertiarty-color);
+  padding-top: 50px;
+  text-align: center;
 }
 
 .coders-link {
