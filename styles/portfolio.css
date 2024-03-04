@@ -165,3 +165,8 @@ i {
     flex-wrap: nowrap;
   }
 }
+@media (min-width: 992px) {
+  .navbar-collapse {
+    justify-content: center;
+  }
+}
