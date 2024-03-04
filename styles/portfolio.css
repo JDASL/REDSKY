@@ -76,10 +76,6 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-i {
-  color: var(--seconday-color);
-  width: 100%;
-}
 
 .hero {
   background: var(--primary-color);
@@ -115,17 +111,29 @@ i {
   display: block;
 }
 
-.social-media {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.upcoming-content img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.social-media i {
+  margin: 0 20px;
   width: 100%;
-  padding-bottom: 20px;
-  color: white;
+  padding: 10px 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+  color: var(--seconday-color);
+  width: 100%;
   text-align: center;
 }
 
-.footer-nav {
+.social-media i:hover {
+  color: white;
+  background: #000;
+}
+
+.footer-work-page {
   display: flex;
   flex-direction: column;
   visibility: hidden;
