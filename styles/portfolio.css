@@ -160,7 +160,7 @@ span,
   .redsky-description {
     font-family: var(--font-family);
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     text-align: justify;
     margin: 0 auto;
   }
@@ -169,7 +169,7 @@ span,
     padding: 0;
   }
   .about-container {
-    padding: 20px 0;
+    padding: 10px 0;
     display: block;
     margin: 0 auto;
   }
@@ -191,7 +191,7 @@ span,
   }
 
   .content-container h3 {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .btn-sm {
