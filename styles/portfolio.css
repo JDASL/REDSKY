@@ -198,8 +198,16 @@ span,
     font-size: 10px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 900px) {
   .navbar-collapse {
     justify-content: center;
+  }
+
+  .studio-images {
+    max-width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
