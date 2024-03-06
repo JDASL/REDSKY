@@ -157,6 +157,10 @@ span,
 }
 
 @media (max-width: 800px) {
+  h3 {
+    font-size: 20px;
+  }
+
   .navbar-item {
     font-size: 15px;
   }
