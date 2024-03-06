@@ -167,6 +167,7 @@ span,
     font-size: 15px;
     text-align: justify;
     margin: 0 auto;
+    display: block;
   }
 
   .content {
@@ -179,11 +180,11 @@ span,
   }
 
   .content-container img {
-    max-width: 50%;
+    max-width: 80%;
     text-align: center;
     margin: 0 auto;
     display: block;
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
   .studio-images {
