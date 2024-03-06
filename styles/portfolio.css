@@ -9,8 +9,9 @@ body {
   background-color: var(--primary-color) !important;
 }
 
-h3 {
-  padding-bottom: 10px;
+h3,
+p {
+  font-size: 50px;
 }
 
 span,
@@ -134,6 +135,7 @@ span,
   display: flex;
   flex-wrap: nowrap;
 }
+
 .social-media i {
   margin: 0 20px;
   width: 100%;
@@ -158,7 +160,7 @@ span,
 
 @media (max-width: 800px) {
   h3 {
-    font-size: 20px;
+    font-size: 50px;
   }
 
   .navbar-item {
@@ -205,6 +207,13 @@ span,
 
   .btn-sm {
     font-size: 10px;
+  }
+
+  .contact-container {
+    max-width: 100%;
+    margin: 0 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
