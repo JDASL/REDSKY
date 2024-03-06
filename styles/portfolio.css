@@ -49,7 +49,6 @@ span,
 }
 
 .content h3 {
-  font-size: 50px;
   color: white;
 }
 
@@ -201,8 +200,14 @@ span,
     flex-wrap: nowrap;
   }
 
-  .content-container h3 {
-    font-size: 15px;
+  .content {
+    max-width: 100%;
+  }
+
+  .content h3 {
+    font-size: 50px;
+    padding: 50px 50px;
+    margin: 0 auto;
   }
 
   .btn-sm {
