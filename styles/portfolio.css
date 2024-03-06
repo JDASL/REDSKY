@@ -123,8 +123,8 @@ span,
 }
 
 .content-container {
-  padding: 30px 100px;
-  margin: 0 auto;
+  margin: 10px 30px;
+  padding: 50px 100px;
   display: block;
 }
 
@@ -158,7 +158,7 @@ span,
 
 @media (max-width: 800px) {
   .navbar-item {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .redsky-description {
