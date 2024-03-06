@@ -198,7 +198,8 @@ span,
     font-size: 10px;
   }
 }
-@media (min-width: 900px) {
+
+@media (min-width: 820px) {
   .navbar-collapse {
     justify-content: center;
   }
