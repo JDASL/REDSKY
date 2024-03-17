@@ -137,8 +137,7 @@ span,
 
 footer {
   position: fixed;
-  margin: auto;
-  text-align: center;
+  margin: auto 0;
   bottom: 0;
 }
 
