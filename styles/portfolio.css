@@ -118,8 +118,8 @@ span,
 .content p {
   font-family: var(--font-family);
   color: var(--tertiarty-color) !important;
-  font-size: 20px;
-  line-height: 3;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .content-container {
