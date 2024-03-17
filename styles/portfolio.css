@@ -135,6 +135,13 @@ span,
   flex-wrap: nowrap;
 }
 
+footer {
+  position: fixed;
+  margin: auto;
+  text-align: center;
+  bottom: 0;
+}
+
 .follow-us {
   color: white;
   text-align: center;
