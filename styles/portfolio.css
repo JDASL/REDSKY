@@ -141,6 +141,11 @@ footer {
   bottom: 0;
 }
 
+.map {
+  height: 400px;
+  width: 100%;
+}
+
 .follow-us {
   color: white;
   text-align: center;
