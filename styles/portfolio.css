@@ -135,15 +135,16 @@ span,
   flex-wrap: nowrap;
 }
 
+p .address {
+  color: var(--tertiarty-color);
+  font-size: 12px;
+  text-align: center;
+}
+
 footer {
   position: fixed;
   margin: auto 0;
   bottom: 0;
-}
-
-.map {
-  height: 400px;
-  width: 100%;
 }
 
 .follow-us {
