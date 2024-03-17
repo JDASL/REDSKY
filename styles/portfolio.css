@@ -135,6 +135,12 @@ span,
   flex-wrap: nowrap;
 }
 
+.follow-us {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
 .social-media i {
   margin: 0 20px;
   width: 100%;
@@ -205,7 +211,7 @@ span,
   }
 
   .content h3 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 50px 50px;
     margin: 0 auto;
   }
@@ -223,7 +229,7 @@ span,
   }
 }
 
-@media (min-width: 820px) {
+@media (min-width: 800px) {
   .navbar-collapse {
     justify-content: center;
   }
