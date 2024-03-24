@@ -38,7 +38,7 @@ span,
 }
 
 .home-container {
-  padding: 30px 100px;
+  padding: 100px 100px 300px;
   display: block;
 }
 
@@ -53,7 +53,7 @@ span,
 }
 
 .about-container {
-  padding: 20px 100px;
+  padding: 20px 100px 139px;
   display: block;
   text-align: center;
 }
@@ -175,6 +175,11 @@ i:hover {
   background: #000;
 }
 
+.contact-content {
+  text-align: center;
+  padding: 50px 100px 65px;
+}
+
 .footer-work-page {
   display: flex;
   flex-direction: column;
@@ -240,7 +245,7 @@ i:hover {
 
   .contact-container {
     max-width: 100%;
-    padding-top: 50px;
+    padding: 50px;
     margin: 0 auto;
     margin-left: 0;
     margin-right: 0;
