@@ -1,7 +1,7 @@
 :root {
   --primary-color: #000;
   --seconday-color: red;
-  --tertiarty-color: #9cadbe;
+  --tertiarty-color: #a2d1ff;
   --font-family: "Archivo", sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
 span,
 .coders-link {
   font-size: 9px;
-  color: var(--tertiarty-color);
+  color: var(--tertiarty-color) !important;
   padding-top: 50px;
   text-align: center;
 }
@@ -115,7 +115,10 @@ span,
   padding: 10px 10px 10px;
   margin: 0 auto;
 }
-.content p {
+.ceo-contact,
+.ceo-number,
+.office-address,
+.office-country {
   font-family: var(--font-family);
   color: var(--tertiarty-color) !important;
   font-size: 18px;
@@ -179,7 +182,7 @@ i:hover {
 
 @media (max-width: 800px) {
   h3 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .navbar-item {
@@ -226,7 +229,7 @@ i:hover {
 
   .content h3 {
     font-size: 40px;
-    padding: 50px 50px;
+    padding: 30px 50px;
     margin: 0 auto;
   }
 
