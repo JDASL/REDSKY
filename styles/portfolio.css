@@ -142,7 +142,6 @@ p .address {
 }
 
 footer {
-  position: fixed;
   margin: auto 0;
   bottom: 0;
 }
@@ -153,18 +152,21 @@ footer {
   font-size: 12px;
 }
 
-.social-media i {
-  margin: 0 20px;
+.social-media {
+  text-align: center;
+  margin: auto 0;
+}
+
+i {
   width: 100%;
   padding: 10px 20px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
   color: var(--seconday-color);
   width: 100%;
-  text-align: center;
 }
 
-.social-media i:hover {
+i:hover {
   color: white;
   background: #000;
 }
