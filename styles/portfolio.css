@@ -118,7 +118,8 @@ span,
 .ceo-contact,
 .ceo-number,
 .office-address,
-.office-country {
+.office-country,
+.us-team {
   font-family: var(--font-family);
   color: var(--tertiarty-color) !important;
   font-size: 18px;
