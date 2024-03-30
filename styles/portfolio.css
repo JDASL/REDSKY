@@ -186,9 +186,13 @@ i:hover {
   visibility: hidden;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 812px) {
   h3 {
     font-size: 40px;
+  }
+
+  p .introduction {
+    font-size: 50px;
   }
 
   .navbar-item {
