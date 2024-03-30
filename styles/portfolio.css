@@ -1,7 +1,7 @@
 :root {
   --primary-color: #000;
   --seconday-color: red;
-  --tertiarty-color: #a2d1ff;
+  --tertiarty-color: #8ea0b3;
   --font-family: "Archivo", sans-serif;
 }
 
@@ -191,8 +191,9 @@ i:hover {
     font-size: 50px;
   }
 
-  h3 {
+  .contact-info {
     font-size: 40px;
+    color: var(--tertiarty-color);
   }
 
   img {
@@ -200,12 +201,12 @@ i:hover {
     height: auto;
   }
 
-  li.nav-item {
+  .nav-item {
     font-size: 50px;
   }
 
   .navbar-toggler-icon {
-    stroke-width: 3;
+    stroke-width: 4;
   }
 
   .navbar-toggler {
