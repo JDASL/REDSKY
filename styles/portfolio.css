@@ -202,7 +202,7 @@ i:hover {
     font-family: var(--font-family);
     color: white;
     font-size: 40px;
-    text-align: justify;
+    text-align: inherit;
     margin: 0 auto;
     display: block;
   }
