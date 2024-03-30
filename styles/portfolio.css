@@ -23,7 +23,7 @@ span,
 }
 
 .nav-link {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .navbar-nav {
@@ -199,8 +199,18 @@ i:hover {
     width: 100%;
     height: auto;
   }
-  .nav-item {
-    font-size: 60px;
+
+  li.nav-item {
+    font-size: 50px;
+    color: inherit;
+  }
+
+  .navbar-toggler-icon {
+    stroke-width: 3;
+  }
+
+  .navbar-toggler {
+    border: 2px solid white;
   }
   .redsky-description {
     font-family: var(--font-family);
@@ -234,12 +244,6 @@ i:hover {
     flex-wrap: nowrap;
   }
 
-  .col-sm-4 {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
   .content {
     max-width: 100%;
   }
@@ -251,7 +255,7 @@ i:hover {
   }
 
   .btn-sm {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .contact-container {
@@ -269,7 +273,7 @@ i:hover {
   .social-media-home,
   .social-media-contact {
     width: 100%;
-    padding: 800px 30px;
+    padding: 800px 30px 20px 30px;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
     color: var(--seconday-color);
