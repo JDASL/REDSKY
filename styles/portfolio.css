@@ -334,7 +334,7 @@ i:hover {
   .social-media-home,
   .social-media-contact {
     width: 100%;
-    padding: 700px 30px 20px 30px;
+    padding: 500px 30px 20px 30px;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
     color: var(--seconday-color);
