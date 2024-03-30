@@ -192,17 +192,13 @@ i:hover {
   }
 
   .navbar-item {
-    font-size: 100%;
+    font-size: 30px;
   }
 
-  .nav-mobile {
-    padding: 0 15px;
-    top: 0;
-    width: 275px;
-    right: -275px;
-    height: 100%;
-    overflow-y: auto;
+  .nav-link {
+    font-size: 40px;
   }
+
   .redsky-description {
     font-family: var(--font-family);
     color: white;
@@ -212,9 +208,6 @@ i:hover {
     display: block;
   }
 
-  .content {
-    padding: 0;
-  }
   .about-container {
     padding: 10px 0;
     display: block;
@@ -248,7 +241,7 @@ i:hover {
   }
 
   .btn-sm {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .contact-container {
