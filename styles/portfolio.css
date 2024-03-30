@@ -188,6 +188,7 @@ i:hover {
 
 @media (max-width: 812px) {
   body {
+    padding: 10 10;
     font-size: 40px;
   }
 
@@ -199,12 +200,7 @@ i:hover {
     font-size: 50px;
   }
 
-  .navbar-toggler {
-    padding: 0 10px;
-  }
-
-  .navbar-item,
-  .nav-link {
+  li .nav-item {
     font-size: 40px;
   }
 
