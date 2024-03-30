@@ -186,9 +186,8 @@ i:hover {
   visibility: hidden;
 }
 
-@media (max-width: 812px) {
-  body {
-    padding: 10 10;
+@media (max-width: 1200px) {
+  .hero p {
     font-size: 40px;
   }
 
@@ -196,14 +195,9 @@ i:hover {
     font-size: 40px;
   }
 
-  p .introduction {
-    font-size: 50px;
+  .nav-item {
+    font-size: 30px;
   }
-
-  li .nav-item {
-    font-size: 40px;
-  }
-
   .redsky-description {
     font-family: var(--font-family);
     color: white;
@@ -258,7 +252,7 @@ i:hover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   .navbar-collapse {
     justify-content: center;
   }
