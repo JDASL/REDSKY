@@ -319,9 +319,14 @@ i:hover {
     font-size: 30px;
   }
 
-  .contact-container {
+  .contact-container.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-content {
     max-width: 100%;
-    padding: 50px;
+    padding: 100px 0 100px 0;
     margin: 0 auto;
     margin-left: 0;
     margin-right: 0;
