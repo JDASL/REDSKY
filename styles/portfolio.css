@@ -192,7 +192,7 @@ i:hover {
   }
 
   .contact-info {
-    font-size: 40px;
+    font-size: 40px !important;
     color: var(--tertiarty-color);
   }
 
@@ -305,23 +305,14 @@ i:hover {
     flex-wrap: nowrap;
   }
 
-  .content {
-    max-width: 100%;
-  }
-
   .content h3 {
-    font-size: 40px;
+    font-size: 50px;
     padding: 30px 50px;
     margin: 0 auto;
   }
 
   .btn-sm {
     font-size: 30px;
-  }
-
-  .contact-container.container {
-    width: 100%;
-    margin: 0 auto;
   }
 
   .contact-content {
