@@ -186,24 +186,23 @@ i:hover {
   visibility: hidden;
 }
 
-.nav-mobile {
-  padding: 0 15px;
-  top: 0;
-  width: 275px;
-  right: -275px;
-  height: 100%;
-  overflow-y: auto;
-}
-
-@media (max-width: 800px) {
+@media (max-width: 720px) {
   h3 {
     font-size: 40px;
   }
 
   .navbar-item {
-    font-size: 22px;
+    font-size: 100%;
   }
 
+  .nav-mobile {
+    padding: 0 15px;
+    top: 0;
+    width: 275px;
+    right: -275px;
+    height: 100%;
+    overflow-y: auto;
+  }
   .redsky-description {
     font-family: var(--font-family);
     color: white;
