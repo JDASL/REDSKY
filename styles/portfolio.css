@@ -186,9 +186,9 @@ i:hover {
   visibility: hidden;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .hero p {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   h3 {
@@ -202,7 +202,6 @@ i:hover {
 
   li.nav-item {
     font-size: 50px;
-    color: inherit;
   }
 
   .navbar-toggler-icon {
