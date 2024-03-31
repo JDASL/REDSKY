@@ -145,6 +145,11 @@ p .address {
   text-align: center;
 }
 
+.map {
+  display: block;
+  margin: 0 auto;
+}
+
 footer {
   margin: auto 0;
   bottom: 0;
@@ -323,8 +328,19 @@ i:hover {
     margin-right: 0;
   }
 
+  #map {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .office-address,
+  .office-country {
+    font-size: 40px;
+  }
+
   .follow-us {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .social-media-home,
