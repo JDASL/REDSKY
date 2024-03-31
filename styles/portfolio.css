@@ -329,7 +329,7 @@ i:hover {
   }
 
   #map {
-    max-width: 100%;
+    max-width: 150%;
     display: block;
     margin: 0 auto;
   }
@@ -366,6 +366,15 @@ i:hover {
 @media (min-width: 1200px) {
   .navbar-collapse {
     justify-content: center;
+  }
+
+  .contact-info {
+    font-size: 25px !important;
+    color: var(--tertiarty-color);
+  }
+
+  .nav-item {
+    font-size: 25px;
   }
 
   .studio-images {
