@@ -344,7 +344,7 @@ i:hover {
   }
 
   .follow-us {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .fa-brands {
@@ -356,21 +356,23 @@ i:hover {
     padding: 500px 30px 20px 30px;
   }
 
+  .social-media-contact {
+    padding: 100px 30px 20px 30px;
+  }
+
+  .social-media-studio {
+    padding: 30px 30px;
+  }
   .social-media-home,
   .social-media-about,
+  .social-media-work,
+  .social-media-us,
+  .social-media-studio,
   .social-media-contact {
     width: 100%;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
     color: var(--seconday-color);
-  }
-
-  .social-media-contact {
-    padding: 150px 30px 20px 30px;
-  }
-
-  .social-media-studio {
-    padding: 30px 30px;
   }
 }
 
