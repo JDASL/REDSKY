@@ -347,13 +347,8 @@ i:hover {
     font-size: 35px;
   }
 
-  i {
-    width: 100%;
-    padding: 10px 20px;
-    border-radius: 50%;
-    transition: all 100ms ease-in-out;
-    color: var(--seconday-color);
-    width: 100%;
+  .fa-brands {
+    font-size: 15px;
   }
 
   .social-media-home,
