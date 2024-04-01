@@ -278,6 +278,10 @@ i:hover {
     transform: rotate(0deg);
   }
 
+  .home-container {
+    padding: 200px 100px 0px;
+    display: block;
+  }
   .redsky-description {
     font-family: var(--font-family);
     color: white;
