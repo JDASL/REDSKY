@@ -348,17 +348,29 @@ i:hover {
   }
 
   .fa-brands {
-    font-size: 40px;
+    font-size: 60px;
+  }
+
+  .social-media-home {
+    width: 100%;
+    padding: 300px 30px 20px 30px;
   }
 
   .social-media-home,
+  .social-media-about,
   .social-media-contact {
     width: 100%;
-    padding: 150px 30px 20px 30px;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
     color: var(--seconday-color);
-    width: 100%;
+  }
+
+  .social-media-contact {
+    padding: 150px 30px 20px 30px;
+  }
+
+  .social-media-studio {
+    padding: 30px 30px;
   }
 }
 
