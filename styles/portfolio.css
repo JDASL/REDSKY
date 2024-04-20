@@ -327,6 +327,13 @@ i:hover {
     text-align: center;
   }
 
+  .us-content {
+    padding: 30px;
+    color: white;
+    font-size: 40px;
+    text-align: justify;
+  }
+
   .studio-images {
     max-width: 80%;
     height: auto;
