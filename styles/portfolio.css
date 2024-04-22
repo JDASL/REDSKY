@@ -16,7 +16,6 @@ span,
   padding-top: 50px;
   text-align: center;
 }
-
 .coders-link {
   font-weight: 200;
   text-decoration: none;
@@ -205,7 +204,11 @@ i:hover {
   visibility: hidden;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 500px) {
+  img {
+    max-width: 100%;
+  }
+
   .hero p {
     font-size: 50px;
   }
