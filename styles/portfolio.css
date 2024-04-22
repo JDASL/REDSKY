@@ -204,7 +204,7 @@ i:hover {
   visibility: hidden;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   img {
     max-width: 100%;
   }
@@ -408,7 +408,11 @@ i:hover {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+
   .navbar-collapse {
     justify-content: center;
   }
