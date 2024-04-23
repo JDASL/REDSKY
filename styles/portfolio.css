@@ -323,6 +323,14 @@ i:hover {
     padding: 10px 0;
   }
 
+  .content-container h3 {
+    color: white;
+    font-size: 25px;
+    margin: 20px 0 0;
+    line-height: 1.5;
+    font-family: var(--font-family);
+  }
+
   .us-content-container {
     padding: 200px 100px 10px;
     line-height: 2;
