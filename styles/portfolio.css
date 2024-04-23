@@ -380,7 +380,7 @@ i:hover {
   }
 
   .fa-brands {
-    font-size: 60px;
+    font-size: 60px !important;
   }
 
   .social-media-home {
@@ -397,10 +397,10 @@ i:hover {
   }
   .social-media-home,
   .social-media-about,
-  .social-media-work,
   .social-media-us,
   .social-media-studio,
-  .social-media-contact {
+  .social-media-contact,
+  .social-media-work {
     width: 100%;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
