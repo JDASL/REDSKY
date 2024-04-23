@@ -204,7 +204,7 @@ i:hover {
   visibility: hidden;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   img {
     max-width: 100%;
   }
@@ -408,7 +408,7 @@ i:hover {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   img {
     max-width: 100%;
   }
