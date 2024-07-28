@@ -179,6 +179,14 @@ footer {
   margin: auto 0;
 }
 
+.social-media-home-index {
+  padding-top: 280px;
+}
+
+.social-media-casting {
+  padding-top: 470px;
+}
+
 i {
   width: 100%;
   padding: 10px 20px;
@@ -391,7 +399,7 @@ i:hover {
     font-size: 60px !important;
   }
 
-  .social-media-home {
+  .social-media-home-index {
     width: 100%;
     padding: 500px 30px 20px 30px;
   }
@@ -441,6 +449,7 @@ i:hover {
     transition: all 100ms ease-in-out;
     color: var(--seconday-color);
   }
+
   .contact-info {
     font-size: 25px !important;
     color: var(--tertiarty-color);
