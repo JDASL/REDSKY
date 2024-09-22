@@ -312,7 +312,8 @@ i:hover {
     display: block;
   }
   .redsky-description,
-  .profile-content {
+  .profile-content,
+  .us-team {
     font-family: var(--font-family);
     color: white;
     font-size: 45px;
