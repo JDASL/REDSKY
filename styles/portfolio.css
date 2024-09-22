@@ -56,6 +56,13 @@ span,
   display: block;
   text-align: center;
 }
+
+.redsky-introduction {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+
 .redsky-description {
   font-family: var(--font-family);
   color: white;
