@@ -1,7 +1,7 @@
 :root {
   --primary-color: #000;
   --seconday-color: red;
-  --tertiarty-color: #8ea0b3;
+  --tertiarty-color: #d1d7de;
   --font-family: "Archivo", sans-serif;
 }
 
@@ -159,9 +159,9 @@ span,
   text-align: center;
 }
 
-.address p {
+.map-office {
   color: var(--tertiarty-color);
-  font-size: 12px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -398,8 +398,7 @@ i:hover {
     margin: 0 auto;
   }
 
-  .office-address,
-  .office-country {
+  .map-office {
     font-size: 40px;
   }
 
