@@ -145,6 +145,17 @@ span,
   flex-wrap: nowrap;
 }
 
+div.scroll-container {
+  background-color: #e5e5e5;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 15px;
+}
+
+div.scroll-container img {
+  padding: 15px;
+}
+
 .us-content-container {
   padding: 100px 300px 100px;
   line-height: 2;
