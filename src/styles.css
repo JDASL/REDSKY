@@ -29,6 +29,25 @@ span,
   font-size: 20px;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image:
+    url("../images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: keeps image fixed while scrolling */
+  color: white;
+  font-family: var(--font-family);
+}
+
+
 .main-logo {
   display: block;
   margin-left: auto;
@@ -182,8 +201,12 @@ div.scroll-container img {
 }
 
 footer {
+  position: absolute;
+  text-align: center;
   margin: auto 0;
   bottom: 0;
+  width: 100%;
+  padding: 20px;
 }
 
 .follow-us {
@@ -195,10 +218,6 @@ footer {
 .social-media {
   text-align: center;
   margin: auto 0;
-}
-
-.social-media-home-index {
-  padding-top: 280px;
 }
 
 .social-media-casting {
@@ -214,7 +233,7 @@ i {
   padding: 10px 20px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
-  color: var(--seconday-color);
+  color: var(--primary-color);
   width: 100%;
 }
 
