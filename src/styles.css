@@ -36,7 +36,7 @@ body {
   padding: 0;
 }
 
-body {
+.homepage {
   background-image:
     url("../images/background.jpeg");
   background-repeat: no-repeat;
@@ -45,6 +45,15 @@ body {
   background-attachment: fixed; /* Optional: keeps image fixed while scrolling */
   color: white;
   font-family: var(--font-family);
+}
+
+.homepage footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 
@@ -83,10 +92,10 @@ body {
 }
 
 .redsky-description {
-  font-family: var(--font-family);
-  color: white;
-  font-size: 23px;
-  text-align: justify;
+  padding: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
 .content-container h3 {
@@ -201,12 +210,10 @@ div.scroll-container img {
 }
 
 footer {
-  position: absolute;
   text-align: center;
-  margin: auto 0;
-  bottom: 0;
   width: 100%;
   padding: 20px;
+  color: white;
 }
 
 .follow-us {
@@ -220,13 +227,6 @@ footer {
   margin: auto 0;
 }
 
-.social-media-casting {
-  padding-top: 470px;
-}
-
-.social-media-studio {
-  padding-top: 30px;
-}
 
 li.nav-item {
     padding: 20px;
@@ -449,10 +449,6 @@ i:hover {
     padding: 500px 30px 20px 30px;
   }
 
-  .social-media-contact {
-    padding: 90px 30px 20px 30px;
-  }
-
   .social-media-studio {
     padding: 30px 30px;
   }
@@ -526,3 +522,7 @@ i:hover {
     font-size: 20px;
   }
 }
+
+ .fa-brands {
+    font-size: 40px !important;
+  }
