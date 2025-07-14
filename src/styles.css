@@ -92,11 +92,11 @@ body {
   font-size: 60px;
 }
 
-.redsky-description {
+.redsky-description p {
   padding: 30px;
-    color: white;
-    font-size: 20px;
-    text-align: center;
+  color: var(--quaternary-color);
+  font-size: 20px;
+  text-align: center;
 }
 
 .content-container h3 {
@@ -195,6 +195,10 @@ div.scroll-container img {
 .map {
   display: block;
   margin: 0 auto;
+}
+
+.projects-background body {
+  background-color: #000;
 }
 
 footer {
@@ -465,7 +469,7 @@ i:hover {
   .redsky-description {
     font-family: var(--font-family);
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     text-align: inherit;
     margin: 0 auto;
     display: block;
