@@ -2,6 +2,7 @@
   --primary-color: #000;
   --seconday-color: red;
   --tertiarty-color: #d1d7de;
+  --quaternary-color: #897467;
   --font-family: "Archivo", sans-serif;
 }
 
@@ -184,19 +185,6 @@ div.scroll-container img {
   padding: 15px;
 }
 
-.us-content-container {
-  padding: 100px 300px 100px;
-  line-height: 2;
-  display: block;
-  text-align: center;
-}
-
-.us-content {
-  padding: 30px;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
 
 .map-office {
   color: var(--tertiarty-color);
@@ -217,7 +205,7 @@ footer {
 }
 
 .follow-us {
-  color: white;
+  color: var(--quaternary-color);
   text-align: center;
   font-size: 12px;
 }
@@ -525,4 +513,5 @@ i:hover {
 
  .fa-brands {
     font-size: 40px !important;
+    color: var(--seconday-color);
   }
