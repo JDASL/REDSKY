@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #000;
+  --seconday-color: red;
+  --tertiarty-color: #d1d7de;
+  --font-family: "Archivo", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 0;
+}
+
+ .content {
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--tertiarty-color);
+  }
+
+  a:hover {
+    color: var(--seconday-color);
+    cursor: grab;
+  }
