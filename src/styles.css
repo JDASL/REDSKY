@@ -286,6 +286,13 @@ i:hover {
     font-size: 50px;
   }
 
+  .homepage {
+    background-size: contain; /* makes the whole image visible */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll; /* optional, prevents fixed zoom issues */
+  }
+
   .contact-info {
     font-size: 40px !important;
     color: var(--tertiary-color);
