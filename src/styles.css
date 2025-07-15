@@ -52,7 +52,6 @@ body {
   padding: 20px;
 }
 
-
 .main-logo {
   display: block;
   margin-left: auto;
@@ -234,7 +233,8 @@ footer {
 
 
 li.nav-item {
-    padding: 20px;
+  font-size: 40px;
+  padding: 5px;
 }
 
 i {
@@ -384,7 +384,7 @@ i:hover {
   .profile-content {
     font-family: var(--font-family);
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     text-align: inherit;
     margin: 0 auto;
     display: block;

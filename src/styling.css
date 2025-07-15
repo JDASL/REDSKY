@@ -21,13 +21,15 @@ img {
  .content {
     padding: 30px;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
   }
 
   a {
     text-decoration: none;
     color: var(--tertiarty-color);
+    position: absolute;
+    padding-right: 30px 0;
   }
 
   a:hover {
@@ -41,6 +43,10 @@ img {
   }
   .profile-photo {
     max-width: 100%;
+  }
+
+  p.content {
+    font-size: 35px;
   }
 
   .back-to-homepage {
