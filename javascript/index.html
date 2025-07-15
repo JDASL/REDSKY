@@ -10,7 +10,8 @@ function scrollFunction() {
   }
 }
 
-// Scroll to top smoothly
 function topFunction() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
+  document.getElementById("backToTopBtn").style.display = "none";
 }
+

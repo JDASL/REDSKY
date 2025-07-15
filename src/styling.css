@@ -34,3 +34,16 @@ img {
     color: var(--seconday-color);
     cursor: grab;
   }
+
+  @media (max-width: 1200px) {
+    .hero p {
+    font-size: 30px;
+  }
+  .profile-photo {
+    max-width: 100%;
+  }
+
+  .back-to-homepage {
+    padding: 5px 0;
+  }
+  }
