@@ -287,7 +287,7 @@ i:hover {
   }
 
   .homepage {
-    background-size: 80% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll; /* optional, prevents fixed zoom issues */
