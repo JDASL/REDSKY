@@ -147,7 +147,7 @@ body {
 .contact-info {
   font-family: var(--font-family);
   color: var(--tertiary-color) !important;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
 }
 
@@ -435,10 +435,6 @@ i:hover {
     margin-right: 0;
   }
 
-  .contact-info {
-    font-size: 30px;
-  }
-
   .contact-content a{
     text-decoration: none;
     color: var(--quaternary-color);
@@ -505,7 +501,7 @@ i:hover {
   }
 
   .contact-info {
-    font-size: 25px !important;
+    font-size: 30px !important;
     color: var(--tertiary-color);
   }
 
