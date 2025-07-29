@@ -56,12 +56,13 @@ h1 {
 }
 
 .trailer {
-  width: 100%;
-  height: auto;
-  max-width: 800;
+  max-width: 869;
+  height: 493px;
   border-radius: 10px;
   margin: 20px auto;
   display: block;
+  width: 869px;
+  object-fit: cover;
 }
 
   .navbar-collapse {
@@ -127,7 +128,7 @@ h1 {
     }
 
     .btn {
-    font-size: 20px;
+    font-size: 25px;
     }
 
 }
