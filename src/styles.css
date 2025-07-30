@@ -281,6 +281,22 @@ i:hover {
   color: white;
 }
 
+  .nav-item {
+    font-size: 25px;
+  }
+
+  .follow-us {
+    font-size: 24px;
+    color: var(--tertiary-color);
+  }
+
+  .fa-brands {
+    font-size: 40px !important;
+    color: var(--secondary-color);
+    padding: 20px;
+  }
+
+
 @media (max-width: 1200px) {
   .hero p {
     font-size: 50px;
@@ -535,5 +551,6 @@ i:hover {
   .fa-brands {
     font-size: 40px !important;
     color: var(--secondary-color);
+    padding: 20px;
   }
 }
